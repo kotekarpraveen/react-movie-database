@@ -2,7 +2,7 @@ import React from 'react';
 
 
 //Styles
-import {Image} from './Thumb.Styles';
+import {Image} from './Thumb.styles';
 
 
 
