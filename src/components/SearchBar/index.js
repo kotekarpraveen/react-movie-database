@@ -40,7 +40,7 @@ const SearchBar = ({setSearchItem})=>{
                     onChange={(e)=>setState(e.currentTarget.value)}
                     value={state}
                 />
-                {console.log(state)}
+              
             </Content>
         </Wrapper>
     );
