@@ -48,10 +48,13 @@ export const useHomeFetch = () => {
 
     }
 
+
+    //Initial and search render 
     useEffect(() => {
-        fetchMovies(1)
-    }, [])
+        setState(initialState);
+        fetchMovies(1,searchTerm)
+    }, [searchTerm])
 
 
-    return {state,loading,error,setSearchTerm};
+    return {state,loading,error,searchTerm,setSearchTerm};
 };
