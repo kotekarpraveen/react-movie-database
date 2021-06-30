@@ -41,6 +41,8 @@ export const useHomeFetch = () => {
                 
             }));
 
+            setLoading(false);
+
         }catch(error)
         {
             setError(true);
